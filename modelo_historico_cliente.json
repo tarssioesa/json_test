@@ -1,0 +1,112 @@
+[
+	{
+		"nome": "nome do cliente",
+		"cpf": "000.000.000-00",
+		"vendas": [
+			{
+				"numero": "123456",
+				"data": "10/07/2021",
+				"valor": 199.99,
+				"desconto": 9.99,
+				"taxas": 0.0,
+				"valor_liq": 190.0,
+				"itens": [
+					{
+						"codigo": 1,
+						"descricao": "liquidificador",
+						"valor": 100.0
+					},
+					{
+						"codigo": 2,
+						"descricao": "batedeira",
+						"valor": 99.99
+					}
+				],
+				"financeiro": [
+					{
+						"titulo": "123456/01",
+						"vencimento": "10/08/2021",
+						"valor": 95.0
+					},
+					{
+						"titulo": "123456/02",
+						"vencimento": "10/09/2021",
+						"valor": 95.0
+					}
+				]
+			},
+			{
+				"numero": "987654",
+				"data": "21/07/2021",
+				"valor": 1999.99,
+				"desconto": 0.0,
+				"taxas": 200.0,
+				"valor_liq": 2199.99,
+				"itens": [
+					{
+						"codigo": 50,
+						"descricao": "geladeira",
+						"valor": 1999.99
+					}
+				],
+				"financeiro": [
+					{
+						"titulo": "987654/01",
+						"vencimento": "21/08/2021",
+						"valor": 219.99
+					},
+					{
+						"titulo": "987654/02",
+						"vencimento": "21/09/2021",
+						"valor": 219.99
+					},
+					{
+						"titulo": "987654/03",
+						"vencimento": "21/10/2021",
+						"valor": 219.99
+					},
+					{
+						"titulo": "987654/04",
+						"vencimento": "21/11/2021",
+						"valor": 219.99
+					},
+					{
+						"titulo": "987654/05",
+						"vencimento": "21/12/2021",
+						"valor": 219.99
+					},
+					{
+						"titulo": "987654/06",
+						"vencimento": "21/01/2022",
+						"valor": 219.99
+					},
+					{
+						"titulo": "987654/07",
+						"vencimento": "21/02/2022",
+						"valor": 219.99
+					},
+					{
+						"titulo": "987654/08",
+						"vencimento": "21/03/2022",
+						"valor": 219.99
+					},
+					{
+						"titulo": "987654/09",
+						"vencimento": "21/04/2022",
+						"valor": 219.99
+					},
+					{
+						"titulo": "987654/10",
+						"vencimento": "21/05/2022",
+						"valor": 219.99
+					}
+				]
+			}
+		]
+	},
+	{
+		"nome": "outro cliente",
+		"cpf": "111.111.111-11",
+		"vendas": []
+	}
+]
